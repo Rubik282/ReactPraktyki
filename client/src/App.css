@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #5fd8fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+  font-family: Arial;
+  color:black;
+}
+
+.Navbar.active{
+  visibility: visible;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.Navbar.inactive{
+  visibility: hidden;
+  transition: all 0.5s ease;
+  display: block;
+  opacity: 0;
+}
+
+.Navbar{
+  border-radius: 15px 50px 30px;
+  background-color: navy;
+  width: 350px;
+  position: absolute;
+  height: 760px;
+  margin-left: 25px;
+  padding: 10px;
+  color:white;
+}
+
+.Navbar h1{
+  text-align: center;
+  color:yellow;
+  margin-right: 125px;
+  margin-left: 125px;
+}
+
+.Navbar p{
+  text-align: center;
+}
+
+.Navbar Input{
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  margin-left:75px;
+  outline: none;
+}
+
+.Navbar Input[type=text]:focus {
+  background-color: yellow;
+}
+.Navbar Input[type=password]:focus {
+  background-color: yellow;
+}
+
+.Navbar Button{
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: yellow;
+}
+
+.Navbar Button:hover {background-color: rgba(0, 255, 200, 0.4); cursor: pointer;}
+.Navbar Button:active {background-color: yellow;}
+
+.MenuButton{
+  margin-top: 10px;
+  margin-left: 10px;
+  color:white;
+  background-color: navy;
+  text-align: center;
+  padding: 5px;
+  width: 23px;
+}
+
+.MenuButton:hover{
+  color: grey;
+  cursor: pointer;
+}
+.MenuButton:active{
+  background-color: yellow;
+  color:black;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead{
+  color: navy;
+}
+
+td, th {
+  max-width: 100px;
+  border: 1px solid rgb(50, 50, 60);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: navy;
+  color:white;
+}
+tr:hover {
+  background-color: yellow;
+  color:black;
+}
+
+.Tabela{
+  overflow-x: auto;
+}
+@media only screen and (min-width: 900px) {
+  td, th {
+    word-break: break-word;
+    max-width: 100px;
+    border: 1px solid rgb(50, 50, 60);
+    text-align: left;
+    padding: 8px;
+  }
+}
+select{
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  margin-left:75px;
+  outline: none;
+}
+option{
+  background-color: yellow;
+}
+.Tabela Input{
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.Tabela Input:focus {
+  background-color: yellow;
+}
+.logbar{
+  border-radius: 15px 50px 30px;
+  background-color: navy;
+  width: 300px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  position: static;
+  margin:auto;
+  height: 260px;
+  margin-top: 10%;
+}
+Button{
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+Button:hover {background-color: rgba(0, 255, 200, 0.4); cursor: pointer;}
+Button:active {background-color: yellow;}
+.logo{
+  background-color: navy;
+  color:white;
+  height:100px;
+}
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dod {
+  color:navy;
+  margin-left: 200px;
+}
+
+.button{
+  margin-right: 10px;
+  float: right;
+  width: 200px;
+  height: 30px;
+}
